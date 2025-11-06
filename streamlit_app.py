@@ -4,6 +4,9 @@ from datetime import datetime
 import streamlit as st
 from openai import OpenAI
 
+# Ne PAS créer de client ici : la clé peut être absente au démarrage
+# Laisse juste Streamlit se lancer, et on créera le client au moment d'appeler l'IA.
+
 # =========================================================
 #                   CONFIG & CONSTANTES
 # =========================================================
